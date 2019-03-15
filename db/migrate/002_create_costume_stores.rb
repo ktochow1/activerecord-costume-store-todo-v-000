@@ -1,5 +1,5 @@
 # Create your costume_stores migration here
-class CreateStores < ActiveRecord::Migration[4.2]
+class CostumeStores < ActiveRecord::Migration[4.2]
   
   def change 
     create_table do |t|
