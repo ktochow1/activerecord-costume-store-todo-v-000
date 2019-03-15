@@ -38,8 +38,8 @@ ActiveRecord::Schema.define(version: 3) do
     t.float "price"
     t.boolean "family_friendly"
     t.string "opening_date"
-    t.datetime "closing_time"
-    t.string "long_description"
+    t.string "closing_time"
+    t.string "description"
   end
 
 end
