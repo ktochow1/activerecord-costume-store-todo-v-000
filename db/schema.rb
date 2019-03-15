@@ -38,7 +38,7 @@ ActiveRecord::Schema.define(version: 3) do
     t.float "price"
     t.boolean "family_friendly"
     t.string "opening_date"
-    t.string "closing_date"
+    t.text "closing_date"
     t.text "description"
   end
 
